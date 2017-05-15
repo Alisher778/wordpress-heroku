@@ -1,0 +1,167 @@
+/*
+ Theme Name:   Simple Store
+ Theme URI:    http://themes4wp.com/theme/simple-store/
+ Description:  Simple Store is a child theme of MaxStore WooCommerce theme. Simple Store is free WooCommerce WordPress Theme suitable for eCommerce websites of any store type: fashion, sport, technology, fashion, furniture, digitals etc. Main features of Simple Store: Customizer theme options, background image and color, wishlist support, SEO optimized, fully responsive, configurable home page, fast loading. Documentation available at http://demo.themes4wp.com/documentation/category/simple-store/ and check the demo at http://demo.themes4wp.com/simple-store/ 
+ Author:       Themes4WP
+ Author URI:   http://themes4wp.com/
+ Template:     maxstore
+ Version:      1.0.2
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Tags:         one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-background, custom-menu, featured-images, theme-options, translation-ready, footer-widgets, e-commerce
+ Text Domain:  simple-store 
+*/
+
+@media (min-width: 768px) {
+				.navbar-nav > li > a {
+					padding: 15px;
+					border-left: 1px solid #D3D3D3 !important;
+					margin-left: -1px;
+          color: #515151 !important;
+				}
+				.navbar-nav > li:last-of-type {
+					border-right: 1px solid #D3D3D3 !important;	
+				}
+				.navbar-inverse .navbar-nav > li > a:after {
+					content: "";
+					margin-left: 0;
+				}
+				.navbar {
+					border: 1px solid #D3D3D3;
+          border-radius: 0;
+				}
+}
+
+.header-alt .top-wishlist .fa {
+    font-size: 34px;
+}
+.header-alt span.amount-title, .header-alt span.amount-cart {
+    display: none;
+}
+.header-alt .top-wishlist {
+    border-left: none;
+    padding: 0px 5px;
+    margin-left: 0;
+}
+.header-banner.col-sm-6.col-xs-8 {
+    margin: 10px 0;
+}
+.header-alt .header-cart-inner {
+    margin-right: 10px;
+}
+.header-alt .header-cart {
+    padding: 0 5px 0 0;
+}
+.rsrc-header {
+    padding-left: 0;
+}
+.top-wishlist .count {
+    top: -5px;
+}
+.rsrc-main-home {
+    padding: 0;
+}
+a, .pagination > li > a, .pagination > li > span, .top-wishlist a {
+    color: #ff8600;
+}
+blockquote, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    border-color: #a05a00;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #a05a00;
+}
+.woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .top-area .onsale {
+    background-color: #ff8600;
+}
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    background-color: #ff8600;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce button.button.alt.disabled {
+    background-color: #ff8600;
+}
+.woocommerce ul.products li.product .button, .add-to-wishlist-custom:hover, #back-top span, .footer-pagination, li.woocommerce-MyAccount-navigation-link.is-active {
+    background-color: #ff8600;
+}
+.btn-primary.outline {
+    border: 2px solid #ff8600;
+    color: #ff8600;
+}
+.widget_search #searchform #searchsubmit, .woocommerce-product-search input[type="submit"], .btn-info, .comment-respond #submit, #searchform #searchsubmit, .btn-primary.outline:hover, .btn-primary.outline a:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary, .topfirst-img:hover .btn-primary.outline {
+    border-color: #ff8600;
+    background-color: #ff8600;
+}
+btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info, .comment-respond #submit:hover, .comment-respond #submit:focus, .comment-respond #submit.focus, .comment-respond #submit:active, .comment-respond #submit.active, .open > .dropdown-toggle.comment-respond #submit, #searchform #searchsubmit:hover, #searchform #searchsubmit:focus, #searchform #searchsubmit.focus, #searchform #searchsubmit:active, #searchform #searchsubmit.active, .open > .dropdown-toggle#searchform #searchsubmit {
+    border-color: #a05a00;
+    background-color: #a05a00;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    border-bottom-color: #ff8600;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus, .navigation.pagination {
+    background-color: #ff8600;
+}
+.woocommerce ul.products li.product {
+    padding: 10px;
+}
+.maxstore-has-gallery .secondary-image {
+    padding: 10px;
+}
+.woocommerce ul.products li.product h3 {
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.woocommerce ul.products li.product.product-category h3 {
+    border: none;
+    margin-bottom: 0;
+}
+.woocommerce ul.products li.product .price {
+    margin-bottom: 0;
+    float: left;
+    width: auto;
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-right: 25px;                       
+}
+.woocommerce ul.products li.product .button {
+    background: none !important;
+    float: right;
+    padding: 0;
+}
+.woocommerce ul.products li.product .button {
+    margin-top: 5px;
+    position: relative;
+    left: initial;
+    width: auto;
+    top: initial;
+    background-color: transparent;
+    color: #666;
+    opacity: 1;
+    font-size: 16px;
+    text-indent: -9999px;
+}
+.woocommerce ul.products li.product:hover .button {
+    left: initial;
+    transform: none;
+    color: initial;
+}
+.woocommerce ul.products li.product .button:before {
+    text-indent: 0;
+    position: absolute;
+    right: 0;
+    top: -4px;
+}
+.add-to-wishlist-custom {
+    top: 35%;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, a:hover, a:focus {
+    color: #a05a00;
+}
+#content-footer-section {
+    background-color: transparent;
+}
+.add-to-wishlist-custom a:hover {
+    color: #ffffff;
+} 
