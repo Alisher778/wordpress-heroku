@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'shop');
+define('DB_NAME', 'postgresql-octagonal-90038');
 
 /** MySQL database username */
 define('DB_USER', 'alisher');
@@ -36,7 +36,8 @@ define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
+define('WP_HOME', 'shop-shop.herokuapp.com');
+define('WP_SITEURL', 'shop-shop.herokuapp.com');
 /**#@+
  * Authentication Unique Keys and Salts.
  *
