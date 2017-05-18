@@ -1,8 +1,6 @@
 /* global twentyseventeenScreenReaderText */
 (function( $ ) {
 
-	console.log($('.customize-unpreviewable').text())
-
 	// Variables and DOM Caching.
 	var $body = $( 'body' ),
 		$customHeader = $body.find( '.custom-header' ),

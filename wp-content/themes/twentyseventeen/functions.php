@@ -9,10 +9,6 @@
  * @since 1.0
  */
 
-add_filter(‘dw_callback_trigger’, ‘dw_callback_trigger’);
-function dw_callback_trigger(){
-return ‘wp_head’; //change to: plugins_loaded, after_setup_theme, wp_loaded, wp_head, or a hook of your choice
-}
 /**
  * Twenty Seventeen only works in WordPress 4.7 or later.
  */
